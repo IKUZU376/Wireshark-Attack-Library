@@ -1,18 +1,18 @@
 # Wireshark Attack Library
 
-A collection of packet captures and protocol analysis reports demonstrating common network activities and simulated attack scenarios using Wireshark.
+A collection of packet captures and protocol analysis reports demonstrating common network protocols and simulated attack scenarios using Wireshark.
 
 ---
 
 ## Overview
 
-This project was created to study how different protocols and attack-related behaviors appear at the packet level.
+This repository was created to study how different protocols and attack-related activities appear at the packet level.
 
 Each scenario includes:
 
 * Packet capture files (`.pcapng`)
-* Screenshots from Wireshark
-* Detailed analysis reports
+* Wireshark screenshots
+* Individual analysis reports
 
 ---
 
@@ -28,7 +28,7 @@ Each scenario includes:
 
 * DNS queries
 * DNS responses
-* Domain resolution behavior
+* Domain resolution
 
 ### HTTP Traffic Analysis
 
@@ -45,8 +45,28 @@ Each scenario includes:
 ### Reverse Shell Simulation
 
 * Netcat listener and client communication
-* Data exchange over TCP
-* Session establishment and termination
+* TCP session establishment
+* Data transfer analysis
+
+---
+
+## Sample Captures
+
+### HTTP Traffic
+
+![HTTP Traffic](screenshots/http_traffic.png)
+
+---
+
+### Port Scan Analysis
+
+![Port Scan](screenshots/port_scan.png)
+
+---
+
+### Reverse Shell Simulation
+
+![Reverse Shell](screenshots/reverse_shell_simulation.png)
 
 ---
 
@@ -81,23 +101,10 @@ Wireshark-Attack-Library/
 * TCP/IP Fundamentals
 * Protocol Inspection
 * Network Reconnaissance
-* Traffic Analysis
 * HTTP Analysis
 * DNS Analysis
 * ICMP Analysis
 * Reverse Shell Traffic Identification
-
----
-
-## Capture Files
-
-| Scenario                 | PCAP File                         |
-| ------------------------ | --------------------------------- |
-| ICMP Traffic             | `icmp_ping.pcapng`                |
-| DNS Traffic              | `dns_traffic.pcapng`              |
-| HTTP Traffic             | `http_traffic.pcapng`             |
-| Port Scan                | `port_scan.pcapng`                |
-| Reverse Shell Simulation | `reverse_shell_simulation.pcapng` |
 
 ---
 
@@ -110,3 +117,7 @@ Detailed reports are available inside the `docs/` directory.
 ## Educational Purpose
 
 This repository was created for educational purposes to understand packet-level behavior and network security concepts in a controlled lab environment.
+
+## License
+
+Distributed under the MIT License.
